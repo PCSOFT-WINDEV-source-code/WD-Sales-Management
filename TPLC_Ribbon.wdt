@@ -1,0 +1,90 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : TPLC_Ribbon
+ major_version : 28
+ minor_version : 0
+ type : 20
+ description : ""
+ subtype : 0
+window :
+ name : TPLC_Ribbon
+ identifier : 0x2bf8089cbbe58bc6
+ internal_properties : CAAAAAgAAACl5BZEO8uikuk42yCK6xq2fwfc4c55PPXt4cTC2+jO8/sRwkXuZVtpg5X2b1I+NqcWsmzc/9G96NjGe6K+oPL5w8BmmTBFnVkc2zFeY9/kYFIlPEeRsESJFWC5M8Zvj5m8QquRqAdkW+J9939HbZ1aKjs3YZ7u/xYX56wMruUY3q23EAMo2GA/mmdOvhm2oKLU5TEfG87++xAXabOAd7ZQ9xRQtN6RGYU02qWqNtAb0ms8AIkmBOCXG11UsZ0ROImsq015M510Ws+b6cXGvA5PnBlJaZ4NqA8dFi9MbV7a9ZEwGAqAInyGTSKM5SJsHMn3ripJP5PpRBjVMQz956h35tSbL/9rRN79c0spcsMrmVmhSoOj+OMQZOUORF8YmaIxCPRX4tGCIVQHitgjQdYyrXxm4HEIFUEWcnhSt+J+5BXRn711FUaKB173gRMc/kG8yIm4dPlSMjaLjIwiDR7w4n6Vie+mCVv7J5bAo3g9JF12CfdjB4OqtomDjao1KWMydZYFrtsIMBIiPqzhq/XyXaIFB1INaKE2fBQ8t1JEFCFMJQfzzvzQWnW5SGW2lkihH9HJOQXsrppB+lVlNIZdwjHSm0P3dqyeSs4hFBgj370IyOfRRm8XjmkrN22+58PxbY+5ldrc9gozVa6TTcVX+WI7RVXmOy3X6nJy7xUMeBXISRWOiAY0is2Q6J10QgyJylBCsFArY03MBJ8eiQ==
+ properties :
+  width : 432
+  height : 97
+ controls :
+  -
+    name : TPLC_Ribbon
+    identifier : 0x2bf8089cbbe68bc6
+    internal_properties : CAAAAAgAAABFuqCCvCwiLGJpcdP6B7PXL9c/gdmAYHJg+NIP196f13HldKP3yVnbTuRFOGk1VH8E/37O43mriTjly1Hyet+JWktCA+ozu+ucjhGZfIf9HoAuNqmJBAk4OxD+Ap9y0RQGUiSJm+FPpu50VEIQUX6NeP0QyZ9brjIrXVxAGa5EVFrzLGxO2bKEVcDVQAhhbKH6aFUsvt5WYqo+hOEsEuZ4L69opneL1yCu1DHgicqMxwjgXR34FCfMtSI959DmbzVMKpQjAoQtZAU1UKP7Zi+zJoFYQx3u0iFRUGo0vbnriEPJ3hbYrSmGu8JBF2mosghBfzciRdjZ2A00Z2y3IdNMfnlmS9hry67AgJun5SL3DSdq34BgG/CBnHhn8V0Yz1VIuNPvpJLZpKurJg3ltj8ApK9DKiOmXepHdtIdEjjd48vJ/cmd4IDIIQjimwYS41VUzK6lq4NTBTj5jnO2MxRm/N17QEa9KxrLbKQ=
+    properties :
+     width : 432
+     height : 97
+    controls :
+     -
+       name : RIBBON_Menu
+       identifier : 0x2bf8089cbbe78bc6
+       internal_properties : CAAAAAgAAAB+WLTQCMEFAxmGgNfAbeqgrmrs9yu+yJJZ1GXQmHR6PEXz2BT880/Spwsnn4/6+/ZkcQO2S0ZMV2dBMYLR8AZJOnTnNaxgdr4uHiSRcsbkzg08KNSOBfkKTAymuhRa7nva8cpyYtnzStN+oxqmFzP8/vzg3vRDFQxuXqAzHWN9GLqHK5GguWw8kahiS9HexnoJ5ndJeYg32S4J+Z2oV+/Knp8mxTJDoJH0Z57yBVfT4w+WplOw7DQbkIUZBBeshw5E278lXzm+6dDJKe67TlWNK+rfRHVPDdOfJriELY8JFOlWRK9PWPgBpGl1/rmxINj4nAGeK6UhB0mw1dNhxP6voGjaMZO48apQ11lWQMzGNmqpnAWokDj8F7764BK6V2+COcuUpYeAPo9Vmh2YnofavpY5aWA746ukoh3goRb+7gci9gP5or/LClYIN/1+tGUFFvpm/1M8Cawi0PiB72vTxvGPrYHT2lIatK/4cXKLKsduC8dlQrSrS50HRw/ETYBoHqfxPp1j/APVNthCepLZAOtbmt5CNf+L0CqYSh1jGc47ev5hyifTiFwuRBXlpaj47iwEF9Zibdu36QiFfV4AzyQNkEmcVtIuTkaSOu7wtOvQGsMwFSyhdS0xEf+5Y57db7Vk5I6EP3QhWj3JWzWiUbJpfTNc8yLCP7lLmtD2fFNPIfs6yEKbfJvbbg+WgBnGCyOyyJo6giiHUdFx7PQv/FZgw0h78ICWpZX43l2JC+ucaMhQnTYQ7gy9oIhInTONlMxl7lTeUHdzHgJ4piFDydFwYvunGklM9o3fw7pt3aFJRhZUoKo70zjL8q37x2hq5eX8jMAOUGAdyD6WNX16O8ceeuWDuheAPtzxIPcBQz10d9X57rhLCpw/519/IUIFnDX2bnOM7PwdCEtjLRxnLXujlvVgrIhutYQI2u4AEpnY/4cTU7na9fM3smYTJ2+4panCnYFX9iIPzTsy3bRasIcGziA3oSmCnQP9T/72yZCZ3W89w0sL4LT2vhESUZbXtUMYH+p5H1Lc08Z8IfmNgtTYeIm2X+4=
+       properties :
+        y : -25
+        width : 432
+        height : 122
+       tabs :
+        -
+          internal_properties : CAAAAAgAAAASv5h9si1IkbXqVRR6XgMq+69GBIQ6DLYFWrzTApaFMd+ZU7Z1iGw308hBCkheXTbz+QjxMnOmCgK46LP5BE0HaUcgx87oenM0P37/YYbPW6Ci/Rz+sWf0/CQCIw64L5Midh06J0HcyHv6+/LMxvy7YfUJ
+          ribbon_groups :
+           -
+             name : RIBGRP_General
+             identifier : 0x2bf8089cbbe98bc6
+             internal_properties : CAAAAAgAAABxypeHJW1CbxDt6fd1pKAvGPMvt2BG/8QHsGIVMTadzOOiI7ZUPNDc5bXinCUw7O+iOyNg9yTGakKAan1DEuNqXQqCk/DZ+lPLp3QQyX1qIlSy6HkBY53KsSBVI4iQuV3zuQ24gBxg8OR9H80lM5d6jnL+A/bv6qTKuhrJ+rm/II/10qie28GpJUUPr5FKjo8ET4sZmoEmBsjxn/RHgWlGYjyp7O6hmP4vbX+pAzSA/2ttQwGTlqfnGOzb4zO4+/pKlV4tVgl2+BGjPIhJO4GsPwQcHYc/3w6cgohrynolliDYszkoAhPscP2dnpYoiUXAZitZMEJSe0NioomZSEnhpY8QaDp01KyztN057NLB1fxKc//1pMcyHT3WcJJKPTRtOQOZrmfcSbSWEHgWWL4WJfoMFis0InslpFyHUPbj457XehRKd3hYphXdGyYTD+/rzzMzhovzw5m/sixmVZ3I69prg92CoAQOJPJ4IylPqp71ZiFZU/R/lA5kKGnJ9bAzonoYl5hauPg0KnHCpQ==
+             properties :
+              y : 3
+              width : 47
+              height : 92
+             controls : []
+             type : 88
+             code_elements :
+              type_code : 123
+              p_codes : []
+          controls : []
+       type : 87
+       controls : []
+       code_elements :
+        type_code : 119
+        p_codes :
+         -
+           type : 292
+           enabled : false
+         -
+           type : 293
+           enabled : false
+    type : 42
+    code_elements :
+     type_code : 92
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2576ae7c0a6bb5ee
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 91
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MDLC_SansNom1
+resources :
+ string_res :
+  identifier : 0x1576ae7c001ab5ee
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAACgrXhAoSy1w2crQcRwRfKA9oC/o5zBtKOD1+FKtygnvbr01tNifAimD/SywKSwrkU08eKdGlJHB6FWrDLidjlkQMkz4Z4G68Vg4rYFrPLx4Y1Y/6TdZLiQlwydlIH11Zv1yt+xmOtuGYp5kQ==

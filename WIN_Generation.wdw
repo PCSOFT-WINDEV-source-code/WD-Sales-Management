@@ -1,0 +1,277 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Generation
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Generation
+ identifier : 0x2e540c0bd380ae88
+ internal_properties : CAAAAAgAAABGUXjQWVu+7JKc6ZecQApwt3eFXS1uz8PMCHE923jQxrG+9jvt6k+M5ZwhmZtCrxMcjNeTbtXn1Cr+6JlGZUJn33oXBnln38Rul+VUvg75X8SKD+o+j0QpAkqfbdHDh7W2uZ7t33C3ea5ecuZ8j/QxdRJabrOLWnF3pD3eKZHhIg4jFk8wC+h+7afGFW1eJbZcZUeluYIfyFIlrzir1OIgJJgVNeVATkqaeMY9eLZbioxyzv+1LRMIQf1Xqw3AaBWA8zqj9IIygssTZaugIhBd3K5DcGx69RE6RNrTteGaMP8ugVMyX3SbipvslnazZavruTUrmKk2JcRXIUBtbvmsMcLp7dBW+ZxhulqM6BZfh56pJijsiEMkGYWPaYy9ln31YoOW7TzpbrzscTbNKXf2z95lfJYgYeBA8/kkk048pgsMr+6e4Aeq1+bZPHYK+K0IFPVYO9gjH7BW9W91vSsCWeZ0/g3qVI9AkdLm8hWtFIU0ysTm7V7u/DO/IETQWPjlUNny+1njrikSa+Q5lnzdFzSF6jJ6TgS3kvFbr4HhI82wkMX92kaoi5wPzC837YLCV863UGC0KgTR95GooDVNaSbj34jIvVxsk3UMtJF7fMVc+3DJJwDYfP9jOI45+xuUos34MjoZpjiJ64UjIh6O97P1vfrm2SdxrF3m7tJ060iIe+wN2bBuWXgBsLGt/yWiycbEOr9OXNixjAHY/vOZclWIpZKlqMOBoDTNjna8XEIAc+g5lvNq9dz14jeKXMQDYvaAIf7kK9NJRoPVie7Xm6JJOg==
+ properties :
+  width : 387
+  height : 191
+  widthClient : 385
+  heightClient : 159
+ controls :
+  -
+    name : IMG_NoName59
+    identifier : 0x2e540c0bd381ae88
+    internal_properties : CAAAAAgAAABI/7kmQvLX/Wx5Qut2Agxn9v71qivA5AtQ6o6IzmkUiEXUnpZJIL4keiot/rhH4XniCrwbZVv1rwV1j2LSuEMgiL4OFM1Bv07Kpx8rt0FJ+Sk0sPkS1touh92oWsSUp6Nd7iRM4CtD2L8ltSsnwAgj3ceK7A3kELftLdAzbJFL9/2TVl/mndy78kzxFw3ORBkBoYlaHkI/52+qMjCv8Q21qFSY+Iiqd7clvJ2+V0JFXCOzxHmPd4F9J2MsaMPfKUgXuFeSSvOYLpsbBYuqtjihfamFaibQy41BrB87sDOqmM5sfdcPfDvAfDynUFprPqWsuXZkX33GHBgqMFVHP+B+334e7AbQAP52GOj2Pb5s2C1DuIR5Eu3dYSGlwXS3DFfQKMgVM1p+GGhFCAvwW3VDDOgrnB9sT50WECqtbtWPi1kuOVN0cferpR6pZNT6eTapahXDGVDFUsSU+1Wo4qZYK+j4DEKgRIqye2+3VQML+2HnflXJr8WkJlUioFAOZ4TTc6O+rMHLZCQA7on0TaO0BaRbe3G3b6eZgZLfDiKNcEI5aTDM07l7/HelNUptjjHAVUXYHcY2rR61D/4cvSw4IsOMnpVHG2RHp1naa0EGeBxOG954nC3L0CzZEIDdq1Xa7tfmbXcam2WJ1DKV/lPXVSpHcENZmp3JEzMfwk2hIqbGP3sQrlIs/M2RmDqd1lQnHoa90T23IFFsD0LyqJUVGrKL1IjiSn+5nymmXzlaI7G0XdvpJ2+1adDAK85WQh0vv9/hDqQHE66PPMxsbnYSTNnxArseP/ZblB8CmPCc4ZnSoM6kIunp6J5f973nQSOHyC6tSdEPsDwBKuMMJ3jKM3tmCEl7be7P60aTJl3uJ0AYRx7ipglCVmoEQlAdB4PoLLESvslJLuY7wLg3eCjMrARpoG7GMXy+hFsXDJfF40o9x95GCmId5fRunZ+TrDFgV+Tt/WLBlkd1zQEpWW1FxA==
+    properties :
+     x : 143
+     y : 6
+     width : 100
+     height : 100
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_Current
+    identifier : 0x2e540c0bd382ae88
+    internal_properties : CAAAAAgAAAA4+kx9vkxQs2zysMTpIHCcHL/8L2XmUOAKy3IcBsWTsVZh8pzgvdAMr3VZmsuj3g8CkOy77YCbF0ErB9PJ8XoYUC98NHG8wT6gr27870WAhFQdrqr7u7njXSXWZj0FGvMSRPEwzVwM+7XuT0XcawXpiIAjMLMSBvPeIIopm8fOPfXwZVvt7wzYX5h1Q3bY6NP4p/b/n+jSZp3aZiCUs65ZGxK/wmfOXYX6hVq1zFjqo2mI89Bor8qPcoEFF4D2arseJcFcQpVDTSP21+V0R72gyLtzeiR4dtQzMIzt4p2EYOZyupR33UpYNC6tVa5Yg0vk1KlytdACL7YEK3yOUzIHHsP2FAhBJxCbupZFDIDuDQDJsOjKWkPm8HQOf2oZ0R+BS31v+ANbr/3T/Glp8zPXvBmLWkW39xxsOAsG2wn1RZCeB/NC8te7Qdnk/kyfGlyD5jjLBjd7Is4Zfe/2fzR5PKiv2qChG6QQr3pQJrGRNpzkZWw8XGqgUoBM48vgAK7ri1Z7nkTtb/IO3W/qghInOg==
+    properties :
+     x : 6
+     y : 112
+     width : 373
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : PROGBAR_Generation
+    identifier : 0x2e71040407a1b724
+    internal_properties : CAAAAAgAAADT5GhcA5e263KVBoqgI7oxgnJssjTYQ5caAQ8zFnmL4gvoRVlko6bUiRDcNY9ZJrXrhgFe9U3mHjcACPyDxLU//0jCIEnOcV7pTF4hOb+GUDw/36fzAaKs3AyUPpLBKQQ+8vG8ZTgmze3JCEidS+tM+wdIwoYNBlUi4hDz5euvXtlz+O6yuzxuXExfgPG+P0wjlJvp5rwereZTt4gPxt9kojveAwMtsHXZCoCUPOvRfph3/Z7ZW8P8B5xMVUr51DMTnFX/iqk7+B+E5E9sbf6Wj15FV57kfCaV5hJUsEu6fgLQ+tNVOg0hPEunAh9r3f04Ylf0CMcwDrSU6Y3WQg4IIm1fgTx4ZInOtGtuNfbsjKinTGZDUkxwgtr8xLTg3J+5yrOGfQxXxxxkhuCQ7dWyT6pgPV4J3sxY9IgpzwbxjpEvjc+x0VpEfXKH1MwlDsWmEqBqDGOeX630QIsymTyGrs6YF2LrnQnbp4ObdKmX/4H9pFMgIZ48xmHSl5qCWza34/X9EdoNbIPUoO8SiMi/UrfPEvRv83hBWm9KPGPdlipeRLWjshhCP0LjOedDebWsLcLEfdQNzcbl4d1aEBHpuXjzhjCqWSoMj5aUUPZNOScaWJ/D4gjpLr18WXtD0WePQNSgl5iH/bAWHD0vp/9GPPKaRDBVR3jVj9xkmMrDG6NDzRHP+11Fj4YNY8Q9Igs0DEc/0LEX2qoiIY4kZNJVvU2+jbkD2hjaSjm6TGKHmqW5PBVOizxSqI5pDEuUxPZZyV6eIJZLGBkvy0yggogevuIXpMfY9yUWw3Zz/h+5CttqfElDwwrWEIBvIqa4RlrcU0Jg81kJNjq8HboynVMfXdDu8VOeLsPBYPJCRShp5IqCFB9AOrJscTZjtR4G2mqtISDI1Aa8Vt4lSl+sEecg9K7Pq0MQvglhlpyd18xd1xuBtjnXPorRUUJ/m0qDgIdaAigSxsdXWeUqdONDeMNAZNIts7vckLRtJPBPjvM0MAHSRStPQmAWGR5uwZJ5QDopcmPJUSpPrgUZ+lrirP3QjERYkFftIR9aPDmkJ6rRRfF3CkD0
+    properties :
+     x : 6
+     y : 138
+     width : 373
+     height : 14
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procédure MyWindow()
+   -
+     code : |1+
+      
+      // Clear data files to generate
+      HCreation(Orders)
+      HCreation(ordline)
+      HCreation(Invoice)
+      HCreation(OrderNum)
+      HCreation(InvoiceNum)
+      HCreation(ArchiveAddress)
+      
+      // Initialize random number generator
+      InitRandom()
+      
+      // Generate data over 2 years
+      PROGBAR_Generation..MaxValue = 365*2
+      
+      // Run process in a thread
+      MyGenerationTask is a ParallelTask = ParallelTaskExecute(Generation, (), ptoFullCopyHFSQLContext)
+      ParallelTaskExecuteAfter(MyGenerationTask, EndGeneration, (), ptoMainThread)
+      
+      
+      	INTERNAL PROCEDURE Generation()
+      	
+      	// Read first product
+      	HReadFirst(ProductVariation)
+      		
+      	// Generate data over 2 years
+      	dDate is date
+      	dDate..Year -= 2
+      	dDate = FirstDayOfMonth(dDate)
+      	while dDate <= DateSys()
+      		
+      		// Current captions
+      		ExecuteMainThread(CurrentCaption, "Data generation on "+DateToString(dDate, "MM/DD/YYYY") )
+      			INTERNAL PROCEDURE CurrentCaption(sCaption)
+      			STC_Current = sCaption
+      			end
+      		
+      		// Browse through customers
+      		FOR EACH Customer 
+      			
+      			// Remove customers at random
+      			if Random(0,1) = 0 then continue
+      			
+      			// Create order
+      			OrderCreate(dDate)
+      			// Associate customer
+      			Orders.CustomerUUID = Customer.CustomerUUID
+      			// Modify status of the order at random
+      			switch Random(1, 4)
+      				case 1 : Orders.OrderStatus = ORD_WAITINGFORPAYMENT
+      				case 2 : Orders.OrderStatus = ORD_PREPARATION
+      				case 3 : Orders.OrderStatus = ORD_DELIVERY
+      				case 4 : Orders.OrderStatus = ORD_DELIVERED
+      			end
+      			
+      			// Read customer's address
+      			HReadSeekFirst(Address, CustomerIDDefaultAddress, [Customer.CustomerUUID, True])
+      			
+      			// Shipping address
+      			ArchiveAddress.FullName = Address.FullName
+      			ArchiveAddress.Company = Address.Company
+      			ArchiveAddress.Way = Address.Way
+      			ArchiveAddress.Complement = Address.Complement
+      			ArchiveAddress.LocalityPOB = Address.LocalityPOB
+      			ArchiveAddress.ZipCode = Address.ZipCode
+      			ArchiveAddress.City = Address.City
+      			ArchiveAddress.StateProvince = Address.StateProvince
+      			ArchiveAddress.Country = Address.Country
+      			if HAdd(ArchiveAddress) = True then
+      				Orders.DeliveryAddressID = ArchiveAddress.AddressID
+      				// The billing address is identical
+      				Orders.InvoicingAddressID = Orders.DeliveryAddressID
+      			end
+      			
+      			// Add products at random
+      			for nNbProduct = 1 _to_ Random(1, 5)
+      				
+      				// Read product according to the variation
+      				HReadSeekFirst(Product, ProductID, ProductVariation.ProductID)
+      				
+      				// Create the order line
+      				HReset(ordline)
+      				ordline.ProductCaption = ProductVariation.VariationCaption
+      				ordline.Quantity = Random(1,5)
+      				ordline.UnitPriceBT = ProductVariation.UnitPriceBT
+      				ordline.TaxRate = TaxRate.Rate
+      				ordline.LineTotal = ordline.UnitPriceBT * ordline.Quantity
+      				ordline.OrderID = Orders.OrderID
+      				ordline.ProductVariationID = ProductVariation.ProductVariationID
+      				if HAdd(ordline) = False then
+      					return
+      				end	
+      				
+      				// Increment order totals
+      				Orders.TotalBT += ordline.LineTotal
+      				Orders.TotalIOT += ordline.LineTotal * (1+ordline.TaxRate)
+      				
+      				// Next product
+      				HReadNext(ProductVariation)
+      				// If it was the last product, read the first product
+      				if HOut(ProductVariation) then
+      					HReadFirst(ProductVariation)
+      				end
+      				
+      			end
+      			
+      			
+      			// Modify order
+      			HModify(Orders)
+      			
+      			// Create corresponding invoice
+      			//Create the invoice
+      			sInvoiceNum is string = CreatedInvoice(dDate)
+      			if sInvoiceNum = "" then
+      				return
+      			end
+      			
+      			Invoice.CustomerUUID = Orders.CustomerUUID
+      			Invoice.OrderNum = Orders.OrderNum
+      			Invoice.OrderDate = Orders.OrderDate		
+      			Invoice.TotalBT = Orders.TotalBT
+      			Invoice.TotalVAT = (Orders.TotalIOT - Orders.TotalBT)
+      			Invoice.TotalIOT = Orders.TotalIOT
+      			Invoice.TotalShippingCost = Orders.ShippingCost
+      			//Invoicing address in clear, and normalized
+      			Invoice.InvoicingAddress = Address.FullName + [CR] +  Address.Complement +  [CR] + Address.Way + [CR] + Address.LocalityPOB + [CR] + Address.ZipCode +  [SPC] +  Upper(Address.City) + [CR] + Upper(Address.Country)
+      			
+      			// Add the invoice into database and add the invoice number to the corresponding order
+      			if HModify(Invoice) then
+      				
+      				Orders.InvoiceNum = sInvoiceNum 
+      				HModify(Orders)
+      				
+      			end
+      			
+      		end
+      		
+      		// Increment day at random
+      		nIncrement is int = Random(3, 10)
+      		dDate..Day += nIncrement
+      		ExecuteMainThread(IncrementProgressBar, nIncrement )
+      		internal procedure IncrementProgressBar(nValue)
+      			PROGBAR_Generation+=nValue
+      		END
+      		
+      	end
+      	
+      	
+      	end
+      
+      
+      	INTERNAL PROCEDURE EndGeneration()
+      	
+      	Info("Test data generation completed!")
+      	Close(WIN_Generation)
+      	
+      	end
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1dcabbbc027dbb4a
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,310 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Indicators
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Indicators
+ identifier : 0x2bf80885b98e32c9
+ internal_properties : CAAAAAgAAAAnNy6nH7GpVeyT9oXWXf65tRuOo6XUzw/Zzvg4UI3xznSbbyqI29rD4pu0fwWBFQhj/TUH1Pa8gFNwoHgCOd9hPPiQ8sX7JDkqMCyvp5zIb3NPXMNKAmHGwii6kgrJW9Pt+CxS5IcS3n8GCsGExqi9lo7oCu3c2E4qpzVQPAPtor2vdW+KVtyGC8yHn/A015j6DUNhCiAWP8woB6XNVg1L7XzBk815oASJazNHOoG4wj0AbQ7sf7cTnHAJv3yhKgSZ6ftHOO1UxvlhXMh6TJcBZoQInZ2gzYECsGei+XTVicZGxfbITnP5vrkaTUjcim+CENfJQUm/zXQ9GlTudHH6gxB3d5f39i54KU7hA03d7Fq0pjNm3+ddfHH3Dms69SFx+iuvqPpbyqvMrKrv3YAKhhzXzxEnv0fr0dyrqIgCJVf5nGsWVU+TtuJ7bXxFPbzntsEQxaIKddwISPSttic+BHgt8k5loyuDqW5ZMkLS4GR606L7EqnqDx1yAnX5wVkLbQ4pnUk6K/Q4AcOlrd3mDgddpr+DEg+VPk/VA2QwPgZRyTziuxBvS2awID+MbHKP5O6Lv9IFkcbGzk2f+NeD8MC/pshMmUeIJG1uw+A+6azLbOyJgpW6gwZ7jV4GNfA232dWpSJwHBvHmExqAbaBYsGjenTK5QNrByJt2QMWEMeP4ASbyh4NNrAOXAFszE1SbF2pJLuANdMhB9+IyMX6fA6pKmWktNFdU4xSSCvXyoNVUv4Lr/JZTU3+O+qqVT59pFOsfxuc
+ properties :
+  width : 450
+  height : 300
+ controls :
+  -
+    name : IW_Indicators
+    identifier : 0x2bf80885b98f32c9
+    internal_properties : CAAAAAgAAACH6udLMBzDDAcI02HL1t9A84PU1h4p20D41YVKEwpKlc8nun8rEQ5bBsXkmTsLdbRwDD/Kx5gP13oMC0fYIoZFywYJwyIFekeZ8bQCx7eYrLoyLZSkDw9QO0uHiMNt2u1mW0lt1CT/hi3uFaVOyEBRg1vg82Dqhfe6BHtWSZJU46mTNSjGFrGeYV4HnKtyDa6qXrhpdsTSU+GVapX3nODkFIJr6z/+kD4gqXSnEvGfhOV0eGoJj/eCzmuGEyuN5Fv5rBf/pcUzZAS2Rvtj0u3XhywR8W+4LVUsJ/ojNZz73m+cGTe1I+ZPZ/zF0yeMRK2j9SUi1AuFi2vlqKXDM3ktEU6hcNiuyClINK6Qfb0hQ6DafJ89mcgyITv+9YXu4sOpmlHeydvC3S92XoArWJB/qp1Nv7I+unaj7vBOHy4/IAKrz1zkknh7ivSmBqK78gz+XJ+EJS061rFqBrKvmzKRGZNtEGbE7MMU65Q/yy2oaw==
+    properties :
+     width : 450
+     height : 300
+    controls :
+     -
+       name : STC_BckgrdIW
+       identifier : 0x2bf80885b99032c9
+       internal_properties : CAAAAAgAAADcZIiiYMPYwmocwommDuNqLb36UOA20MtzaNFkyxdIgKOLtUupEkbsMZjrzNmBoDGqOuByBppuRwKqe0uJ9GhsWpus6Tis9fmtXT0bk20ti3G1gJYD6iQpJ1O6Z7c623ooYpYgJQ47sQQ51y8vpA5f9QDNgo/uw6b19MCg6hA72DX5owV3I6XjGr2hBFuIFStAhUeitByM1ePlT3hfW/0bRzjx/NdTu5w8EUJEUbCEUBPmg9Mi19HyRK1MQs04c4Qvc/wdNrvsyK7dRjvpO7PFqxNXj704LAxAu9XG/VJ03N/nVY0Qzvyx1CA757ySWImZd2oTc0j68IpCZif3MU7UODIoSP2K+tcXFH2vUuMcBSQsHH37LzqrZ2ygaL5pmy8txMuP3/orx4OcrqouknbXS51Hwdtx6uohQTerd4qHXauN+0Vxd8TQV9PvWaOwnpJ94ROplW3zyFBT6VhssAI2GsllvVEI0KBwhSP7nafpZaJVM72LizqoZpyO2SWtDW1fo2oG7UFR/5D9xXvivkulKe+NMMI2KxM11OoA4gMhg6fXwAByv1ca9irDeiQ5E9Ez4jCM7gp60ZnS0Xf9N5FFNdaY22iaXVcrBm79ox97+8k0Q9/rJe3Rdc9g2Fu1CkexRQ==
+       properties :
+        x : 3
+        width : 448
+        height : 301
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Number_of_invoices_to
+       identifier : 0x2bf80885b99c32c9
+       internal_properties : CAAAAAgAAACey2XLnP8rm61OB4un+Dnmn2hsc0o+/xDt2ubTKpwP7oBlytmsn8cxR/4rsx6Xv77S7tEcGWNu4y+ap42W6LUU32BiByRJMPJLe8DmtEx04hAHt29Y3DHP2C8vxMVMIVccEXzVXF9zUS3qYx2C+DMvodFFx4vn9xIb4evFbYKX6Rue70Bd/jOH/aYXZ/xKdvgSNdLM/KB6hgwuZY6BCvM/V1mSoxNnkbZqPYf+J/Y7+jrbFMcOXVAyEPCWWCFL96bz8xHI3UDB6nwZh4BjZBt2WjCG2rZLGI7ZUPcCY8njI6I2z2X0zPfJHnGpgrufh1DBl6ffv481nCocKvwHPQCQI5t6U+YexnK3E8sdnijlbj4OZtuIYKq/4fYY9inaDp2BV0HSenazSf3rIZnMswQ44x8QvGCiAhKpA6BTDq5z4uYyFVBgm266LOUpkD2QmvUPIUDAXk0piDwj3KrFc58lsxzMtMHCRGsqqTDW3y8JoVYzgWAOp8ALontBNQ0LMJd8PxZXZTMzQ0AVH2mR3de5yI61my1/t3Y=
+       properties :
+        x : 19
+        y : 235
+        width : 251
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SC_NoName2
+       identifier : 0x2bf80885b99732c9
+       internal_properties : CAAAAAgAAAAYEj0nGB0DOtwzZxbodriJrG0P+WY9YSa/8kHzU+LA4T7ppw4igGc8h0iUY2V+TodvFDgadv0uwVOgJAdq/FWqTgfoyZ3o6Qe6MypX0H2wrql9+3C3+vIe0A4pd5+4SqEsGgyCv+gxVP/Ail6U300Bjy3gjlxaBZbgUxNMw4UFMeQHL+AoiL911x/4XEUbc5hQN7mBx4GJYNAWHzAyEuNQEFz36ioucB2eQmfxQEhM/tsyyZYp2e+GnWzLTwBMzkt8RzLEa3Qb0iq10eto0aIEEvBxhrDWKR3prV+j6Famd4oE52eIu4s4dfkq623dbm8dOPsUmbFrs9hbCW/lcJyowkpUmnutb1RpW8hh/Mni3KIMQqZPoNT80PBxNVShNEGWDAW+PNwoES7shPsBCPhG8fnrtJzAoOJ0KOV7YTIdXMVfUK/QeeiL4k9ura43ECksDr2UKJV8cxK3g0cW/24bIitMW79xkmsaBC9s+8hOGbMeL7CFbMEypAkhuUxSG+c+rn9M8DG2G713K2M7qCIo/uFOwhCP4PEx9GVA/EHOGbv+VbwvdtmyurqYUaOLqQSwBDY5vx7j3lsarz0vKtkWXNUs6NZRelwGg1AixZeg6sIQGeRzX8LzmIeMKGdogVjirEdqaXj3F7NL89U417Ukgm/8LZG55gX8mvqyB8IWYqaR2illHvJDPdI1UeUbS0FOKe9Cn9hmyLnrSopiHUnBCJkQN/TCMCw0/oNmNkzSC0pJMhnACik6yDgaH1NO5O/NwtJkp8Mg5XAfgzE3Z7URHrHZMPnAlioPD/9jhHhb8iri5LBcbRK7265/YTBdCWhGwEl5/kKB
+       properties :
+        x : 19
+        y : 223
+        width : 412
+        height : 64
+       controls :
+        -
+          name : STC_NbInvoices
+          identifier : 0x2bf80885b99832c9
+          internal_properties : CAAAAAgAAADoX7ltQHFnpsFyWTRw3CnV/f0d6Z0ZDCYUZivo8y/bbsgzGiH6/kcuQJu97Mu6g2t9Zz1aY5PqaX5rkOtu2Jiw0jylLeVXkeVWhLqSDtUBv8BrSIAD6vn78I5gDnkrGfS7e89i460WFjnDd4VWR/xDihuL5cIKKhYbtysUSYbHyeNQ4Wg23BxVAZZhh4Q0NicUQTJgLTgGStYskzCIwNTns1I2Q4PjxEJd9owKkXinrk/WWQn123ZSIsr4JDeRmlnhCFcvOinWpetrWqSxpnk7bMB+uVrNjKeaFdYoc0+/GrIISfmWYC3ji123tjYk9nQragiaySQsmns7Q4sRn8f1LH/h/GnTsiJif6dmRnkHs1eH0dJSvqiNubjFfAUIZOT6szWiQ7ARA74xkNbKEXBAWbQhm2tuTUGJhMFtrvu71iVIyNFWoSTdAk2ctY2KMIBwkqu51l9b8f/fQuJjmqTxoHJMMvIDjcAmcTNAtHlspLMPcQwGbtuItdnIPggA0DIrhLIZKJYf1LGwg5G8wkIeXUEbHlOCKvmrcqEiVn6hb9VCKfAPhA==
+          properties :
+           x : 257
+           y : 12
+           width : 153
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Amount_of_invoices_to
+          identifier : 0x2bf80885b99932c9
+          internal_properties : CAAAAAgAAAAlmqBQhjhOhJrKQcUdGa4UzR61ZtcJq8BTb+K7kXxWoh0PhYPgwy/BRKX8RF0X4XOf1aQsAxuEs2zJ4wwkvmtiCsiF8l7X82MAy8LLZ1f7NzNsN9cGDvOg9QZoLQVBRMW/r3K6MOAplO6V/4BGYt2JjjU1DYIhHrP7aMYtz2q6DVxtxswy3Tyy71BZntmwbveX924EOY7b/S29Kp9Y1nURx9rDPNWpVXLSXe24KfbD15xkzmRwvzbTz+Kn+Jm4l7hpqP4AIvaxAQAJRr9x4KCAzHFnrVGkXnm95Sj1T7e2KyTF/KxfFZe2+grmKXeZKCYz8kJoPObhxyAxJ5unR5N+DXBfUkUr6oWLNOjsPAQMdCDd7w45y8AaKWE3M1/eP7NNKoYREQNhOs+stqD2/+3G+5hJ7z0RVEfZNE062nwmRpbXGFGTsywTBOjYJ7m7PqD4mVw+gv0rfVbnngxqrCGA9QOTgdxvWyfPVHe5EQ7fobDASbPmsPv7lfp6TcJX/KyPzkALOfNShEIEz9cEVXPftMXEtw8vpmjnTw==
+          properties :
+           y : 37
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_InvoiceAmounts
+          identifier : 0x2bf80885b99a32c9
+          internal_properties : CAAAAAgAAABTtoCrgcF6bKKs8k6K7BeGqKx7HZhVL5G5LVpPIGqR31kwg3G9snBnnhLNQlUXB8SGue1W1Q56Af3Wyaw75fwxqOauzJ/1safZCUDFoNUzYDUacfhKXaiVoP02cGqjObUxQWR5VHV+hnwCx7kj/OKpsK8fUfmhgJ+aOGyWQqqz9NXPAlU3ykUrJJNmHkYL3rB+0CM0weKdVjDXqfyDciRPG1aRNlVc5LOhy4yuqXkdkCUYbz5kvGMFmXVAlp3gEmgNAg1nO4K12JdF+5QVp3S/K+JJ3ups+SFTcti5hRXYmTQKfQT9hu+1ct+jJXBjB6o1rp2ZwVMK4L0EWgHJq3SgEJKPMkzJlShm3k9/C8K5t2S8vp7vXdD5XLYXZAj7PigvW8Khf+XcRncCgc6Wz8n8YV537JCOhfA//NfoRAApVx6lQIwohN6CDMV3A84j73kclAkwTUNC20yJXGX+iIbfTeGEb0aDjS++LnUDvIMgqZkv4EmEEBlJug3kjRqLBnxX8rhNDxMyDL9VjM2mfOJ2r9M7ZKTqGNKKRJNoenQpLVlV4jmlYI/Df6QVaOyWWEFkXUwn
+          properties :
+           x : 257
+           y : 37
+           width : 153
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes : []
+     -
+       name : STC_Window_title
+       identifier : 0x2bf80885b99b32c9
+       internal_properties : CAAAAAgAAAA4j7xrt7vJbpPViqoIScQC/E9LqmZnp8CtDXU5kmY8mcq/ZsjmZqtr6s4ZIsR3ZX8NWIGirWRQqa+UTkelqVMxwStgy2ZfWBfxAmqbXfCcwlKYlX4ZwJ3hF0s8XI3orQyneuksayqAM1eDL7g3MsA/vUTj2kdcDG5/KYbdYmwmxtIzNV5TlsTG/Bh5HRj5rB6Whi7C3fP/CU3Jh+49nvQchiwhkFbAZ3VQD/rJDD/XqDIgNHgmKTKPQnEbcAixhNCs0c3I5hpmuB9wgrNO7DOts9BOYQtXXc1Fx3CEWsoojei7GYTdiaPePb5BvQus8Xc+IMcoVMjWqVui/d0oqAj2ndcSkUgmKhd3y09LXtDX3tfeEAygCJu0Vuv8dr1mdYfNPqY3QvOxSFRucm6jq3FzDoHg9Mvf0FgRMQXZlh5Ukbbm0Z0qUF1TNaoWZnrqIpcTyfVnaKI3YxtSFOyUOmVpkYyy4q1Kh7i9EFgW1lKoK9VDWLqusv1ACywHzpQ4bvsNDuddgJuMM7LTeHdGPDc0
+       properties :
+        x : 19
+        y : 221
+        width : 412
+        height : 3
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Total_net_turnover
+       identifier : 0x2bf80885b99632c9
+       internal_properties : CAAAAAgAAABkSNrh9nVPDdADyn76TGSGRjwOQlwcTr5mfN5T8Ew45bTatm4R5SPKBlcL/UGycwghCqOK4a3SdpNFWNwk9EZTMnP1BYvmYqcAYR3ts7zXgDFMEcPqA7uyc4G5On23lnGfyfjF3LQkyRo1EX7xnF5HXrmvnXaBOsJhEZCZtG1Fs4AdDQVFan3fjg8X1VSIXi4gDzPKKWofKc1/GdmHqbsIVe/ndjQTnn3TW4IbUG9abGvSVnMed0gKbCAM6L4Ev9u5WWZI5/EnW1J7uNE5zt0OmFqdv1Eq7GNkg7+4cc98SYbi4s2N/+ME7lG9JHmXCMN4LtYo4zlOJ8B57FV7QQ3XQIdBcXRAjUu5PO/y1mpbwdrCgCtOLuKtGl3Y29TvVbWl7xhHvsUQCZqfkf07kUh4lW8Xu16y2xovoL5CgGn2DIX5EExRlF/wnuGf80nVsC0dYFtBFFISFCpVoFJ4rjlJW8sqAuLF2Df/vvXMaK18MuoKNa+y3LmdlhqYxFC883q8rFETHGWBK5i06gWbukG4JgFJJ7zR1oBWraxAnc1h5g==
+       properties :
+        x : 178
+        y : 157
+        width : 251
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_TOTAL
+       identifier : 0x2bf80885b99232c9
+       internal_properties : CAAAAAgAAAB+CcCAcu42G04Zp7/db7VFllWmcKvdH0UAotfNPThXSzdvzXeIsWpqHLk/aODjUXQNJ9JHu0+COQfjOvUnncPDQsJU9qSrPGCqbCs03gJiqIcXfGUfgg6qXcBBFZIMsEKBqF2ktrAu7iXvEUGv3gbI5gb1mVSTMO7wBl78pScmET2qR5MOj15QOKbV7xkFOTz972w8+xdNYsa+u75vK4kAvk5y3veaULBzT3ScCsFzpTQgtIML+kPWtmO4SR+UmG4d50DNl7o3zkBM0XNAgdRTJf/qv9Wx2fMXidFR/2JB6NdkQzfIur0ICbIpap1x+4FYY1AasSvt3ULu2RYjjwkJ4EL/1lPOK9nFzr83Zj3/mcWC2oqIqJm9WU7DAwPw2KIzEsk+/FfoBgRUNmPcALxe85ib9vdYYS+vp7vAdvZ1DygUiqXFgaaE3ZZZpBvRS+2YjTwd1efru/FWcHGNY1aGzE8A9+0rEqSK6KquNv462augAWG/w9bfBXzwoKJ7G0En0oDFgOUYQM1pWnPpbiV2d1ynJP6vnPdxVPqdJWIWMuvvfsFkyIxcNTZxdq2HF4VpgtQJcOs/PkM984rj8e5t1mD7/A==
+       properties :
+        x : 189
+        y : 126
+        width : 240
+        height : 32
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SC_MonthlyTO
+       identifier : 0x2bf80885b99332c9
+       internal_properties : CAAAAAgAAAB1T6Mc4RteG40ZaVtH/77EZTxQ5mmAtMfax68Emp455EFXy+N21KbI+zOghxG/kM1e8ncIWV8h5XjyEa05njSAVs1lEPHjiNZA0tMHK1Mua0Qy1JnFgy7+O2FWasgO4bsGTlF/WOxDzuWQiyjbKDiBTtgpdH6KQNrmSMhuqsK9TwhZ7EmdGR2ODVNbVWp6P9ocfewq8+LGJWMBdylKUf1iX95xCpV9perqJ3cM6rYEVeH7DkSLGSGnOlwnO2ckx5+Z1gFFfmkH2swwMsTY/W8dKxuVRvjJlEMApdPLjv2Coi36dC+LIB6/95JGRwcWYqzcyOqlL5ALhrVTItth5ZUwpAZ15iaFUB1qvn082i5G4j3hXk7VT+UQneVDD/164NDyRYvH/8h8XJaJoNreb+skIbyTXDT1MdH2ohdX/G/BmbavDQOFNtn17AdwRhNLq4eb9oW8kKVaF1oSA6Dk0CZDujdLZL8B8sY22cqexuwlkfBvs+ongPeKdww3fyCC/LDY7dub+xNymSQwJldHryW69qL935ISjR1oanN+ZhkgWj5AJdc7z1AD3tVUeypnEUGKjMuoE3hx8LxFX2VgiqOoMfr+1reU1xe7xmeQFhyiH1EmYv/i0E+Fa4Cv0DIu3Oq3lEHKFqKfx2+++OtPgyuFOA1r8jBrOEmBzN4Rk8NWTbSLvOYd69eii4pWviu60ob6PxqhyINDhF7WdQyD0b0/wX1+d2PJeQijMouuVI4R0z4D3bwbMH3YDJ29AEt5O3X3VNs71mD3QG5XOgMxQnmNzLXXIZxycAgwwpMoaFgABpiTozB9z6acu8ipMg==
+       properties :
+        x : 19
+        y : 60
+        width : 412
+        height : 64
+       controls :
+        -
+          name : STC_Net_turnover_for
+          identifier : 0x2bf80885b99432c9
+          internal_properties : CAAAAAgAAAB8u+JpoVFwO6K39nImu8v3zS2MwDRVVXWyXD6OKZVGLLbhmEGAzIFeHn2s3Ya7vYVL6XgrgohDQ01095DdMhHwNwVrmng5ToGMgq63huUep6L3bxYB0tGLxWsvQI1snKBkumq5eFrRKZXJTEDA3XD/HQ8LSEJEvZrcwXqBywvlAUmEvdsJcX8VtuZMCLuIcFtP5O2v/YiGBlqJ40Hy3+0eLGc/uvgoZ13OkwMJEmeLVqD9NKhDoPDkJrvXXy4pm7cQUy9uRh/YfYFeA/dgNYWn4MQ4Dc1CQEVPO9MJF6xbsvwqcA3hSF3hGbzd6ajT2zioGocytpWKT+nhH8gJKI/t95tK7nRoVOAG+C24ewRqLLzxfAnvM3FWHDUCmjbyY5j/g48+uFtpw0Dga3EtKYtOlP0ndgW6lM8PBXaIDsVqqeN9280bWrMtVtKd+Nfql0QvLB7TkccTUZABmBUqXToX6pAFUYqehsMsyO39MInFQtBtwp80becSMKJv37ez4hk99uTDRXsh/x0qkitf
+          properties :
+           x : 12
+           y : 11
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_TO_MONTH
+          identifier : 0x2bf80885b99532c9
+          internal_properties : CAAAAAgAAAAKYN1mNzj3l93lxso0XCURq6TTZ8hdDAxq3bcxJ2kE1wiroIWG1/KFEmuJGiDz+/4hcCbYMEWerxvpePHZ/deReE7UY+iSITLjDKFjvKPsY//gQVveX/IDUjUK3z8LWBUpO+LEHRUcBDjefE6OGj5liMkka7ZNakXjozZpJUWdEqq8N4BStqnIWWTSNo/7goYxCP5Qm9KSwIxVbMEzS7vq6tHy4NxEWg1N3oFT5fsuDCvo7xTGBmm+4w1vQtAjn7lFoTsrh4y/KmLi2Jkxnw2x1ZvjP7nXaFM3CAPZJhwsbbLgvd+fwg/4HBP9/6Knxk9uhuUgXkkSCtDMgFkHTMl0alMXdEjrqQ5XBKM0M21Y9SLQOTcbARx5WI1yHIpimR0qw0M5BhwnYW4vVp0E5keiCtR6TvG+Xs1Ai69y7Zb4CzqqTg3PNu4UPhxmufl3pGuG/PfiZaVLRX18a5HAKdKHrbLeFY9UmQeXVFQXImav9rQZTrqVNUr4FkyCVVGCZ7wl148cFKvJ1OnnZcYyfPf2vuoQ97rYLoThC5dB/7AJnk7jdsZ5JTK40IAJCukj1WYYBQk=
+          properties :
+           x : 12
+           y : 33
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes : []
+     -
+       name : STC_Indicators
+       identifier : 0x2bf80885b99132c9
+       internal_properties : CAAAAAgAAACtsaWrcvxP3aSME8xX1hlx1vRN0edMQ1W0eFJnl+O6t6okvSKYJv21lKEnWzKhjs3z45yGF4sdkQnVyzyRZAi8TONxWTD2h/304PpymiI4qWj3bhUDrQkcWSDFcQNzkmQ9AFJn3HXfl9mJUq+aI3ho5MMiTL04eA0k3PiOqkxxEu/s4DMQedI9XM11Eot+N3QyJXzd/AWzmIH9xvnEfrhXp4l0/rJIZd5tCGJp1+cBw0ID0jfTP9H+GRgQdzIwoAzysySXuFr/xrbVY5YVJYzlA6bFJw5sG7P8ScyErga/cax3ajgWPEvxPjt/+Gok/j41hqodl37MioQHcXtC5gp0gfHNbUSvOrWZvbdg1cfLFbrIwc0V7hFRrnjXig1T7CeP4cVDAYsYr69SH6xUNESeYrDQ7DSI5G2rrh8RcnLSjvC7YOoa8TtS1ukIoaROOn4joPTLkTJt9cF5H2oLpy/RNhXDmcBAZiX1X3JEh4VrFOGvQvDPjnse+PrWy0m/FXi6BCRDCxMxqQ7Ub2g=
+       properties :
+        x : 19
+        y : 18
+        width : 118
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         Procédure MyWindow()
+         
+         
+         STC_TO_MONTH = TOMonth()
+         STC_TOTAL = TOYear()
+         
+         
+         (STC_NbInvoices, STC_InvoiceAmounts) = OrdersToFollowUp()
+ menu :
+  name : _Menu
+  identifier : 0x2698d396433318a1
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : OrdersToFollowUp
+     internal_properties : CAAAAAgAAABWd+pQ1DxxrMAYWY/WxsHa4VCqJ/iiZ30awJFPY8guAIo2Dkzk7mJhRkcon/B/CSul4mJ+7BL9sHzdnLhQAgTogz7rmTZYWvq1AmIfM1iZ/7YUzqX6vHvs2za2Z4AUaBG1iMo5xeunNFV23LD7ZF9+Hc+qum8F2NvBvE790vXfai8lIP2hw/Z/Ov16uxqNRe8zva5uXgOSHm0C/DSzkzlFN/LbrA==
+     procedure_id : 2015370200729727689
+     type_code : 14
+     code : |1+
+      // Summary: Number and amount of orders to recover, which means waiting for payment
+      // Syntax:
+      //[ <Result> = ] OrdersToRecover ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	multi-value: Number and total amount IOT
+      
+      Procédure OrdersToFollowUp()
+      
+      // We want to find the orders to recover, which means waiting for payment 
+      QRY_OrderAccordingToStatus.ParamOrderStatus = ORD_WAITINGFORPAYMENT
+      
+      HExecuteQuery(QRY_OrderAccordingToStatus)
+      HReadFirst(QRY_OrderAccordingToStatus)
+      
+      result (QRY_OrderAccordingToStatus.NbOrds, QRY_OrderAccordingToStatus.the_sum_TotalIOT)
+     type : 458752
+   -
+     name : TOMonth
+     procedure_id : 2015370200729793225
+     type_code : 14
+     code : |1-
+      // Summary: Returns the monthly turnover
+      // Syntax:
+      //[ <Result> = ] TOMonth ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	currency: Monthly turnover
+      
+      Procédure TOMonth()
+      
+      dToday is date 
+      
+      CyTotalIOTMonth is currency
+      QRY_TOMonth.paramMonth = Left(dToday,6)
+      HExecuteQuery(QRY_TOMonth)
+      HReadFirst(QRY_TOMonth)
+      CyTotalIOTMonth = QRY_TOMonth.the_sum_TotalIOT
+      
+      result CyTotalIOTMonth
+     type : 458752
+   -
+     name : TOYear
+     procedure_id : 2015370200729858761
+     type_code : 14
+     code : |1-
+      // Summary: Returns the yearly turnover
+      // Syntax:
+      //[ <Result> = ] TOYear ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	currency: Yearly turnover
+      
+      Procédure TOYear()
+      
+      CyTotalIOTYear is currency
+      
+      HExecuteQuery(QRY_TOYear)
+      HReadFirst(QRY_TOYear)
+      CyTotalIOTYear = QRY_TOYear.the_sum_TotalIOT
+      
+      result CyTotalIOTYear
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1698d39601bf18a1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

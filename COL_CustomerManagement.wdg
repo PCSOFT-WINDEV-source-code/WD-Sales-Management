@@ -1,0 +1,185 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_CustomerManagement
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1bf8089909957e49
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      STCustomer is Structure
+      	CustomerUUID is UUID
+      	eMail is string
+      	Title is int
+      	LastName is string
+      	FirstName is string
+      	HomePhone is string
+      	CellPhone is string
+      	CreationDate is date
+      end
+      
+      STFiltersFindCustomers is Structure
+      	sName is string
+      	sFirstName is string
+      	sZIP is string
+      	sCity is string
+      	sTel is string
+      	sEmail is string
+      end
+     type : 720896
+  procedures :
+   -
+     name : TitleToString
+     procedure_id : 2015370286632173144
+     type_code : 15
+     code : |1-
+      // Summary: Gender in plain letters
+      // Syntax:
+      //[ <Result> = ] GenderToString (<nGender> [, <bAbbreviated>])
+      //
+      // Parameters:
+      //	nGender: Gender stored in the database
+      // 	bAbbreviated (default value=1): Gender in full or abbreviated?
+      // Return value:
+      // 	ANSI string: Gender in plain letters
+      
+      Procédure TitleToString(nTitle, bAbbreviated = True)
+      
+      if bAbbreviated then
+      	switch nTitle
+      		case 2 // Mr
+      			result "Mr"
+      		case 3 // Mrs
+      			result "Mrs"
+      		case 4 // Miss
+      			result "Ms"
+      		other case
+      			result ""
+      	end
+      else
+      	switch nTitle
+      		case 2 // Mr
+      			result "Mr"
+      		case 3 // Mrs
+      			result "Mrs"
+      		case 4 // Miss
+      			result "Miss"
+      		other case
+      			result ""
+      	end
+      	
+      end
+     type : 458752
+   -
+     name : GetCustomer
+     procedure_id : 2015370286632238680
+     type_code : 15
+     code : |1+
+      Procédure GetCustomer( CustomerUUIDToRead is uuid)
+      
+      dbgAssert(CustomerUUIDToRead<>Nil_UUID)
+      
+      stCustomerInfo is STCustomer
+      if HReadSeekFirst(Customer,CustomerUUID,CustomerUUIDToRead) then
+      	FileToMemory(stCustomerInfo,Customer)
+      end
+      
+      result stCustomerInfo
+      
+     type : 458752
+   -
+     name : FullCustomerName
+     procedure_id : 2015370286632304216
+     type_code : 15
+     code : |1-
+      // Summary: Returns the full customer name
+      // Syntax:
+      //[ <Result> = ] FullCustomerName (<ACustomerUUID> is 128-bit UUID)
+      //
+      // Parameters:
+      //	ACustomerUUID (128-bit UUID) : Customer id
+      // Return value:
+      // 	ANSI string: Full customer name
+      
+      Procédure FullCustomerName(local ACustomerUUID is UUID)
+      
+      
+      sFullName is string
+      
+      // Searching for the client
+      HReadSeekFirst(Customer, CustomerUUID, ACustomerUUID)
+      if HFound(Customer) then
+      	
+      	sFullName = TitleToString(Customer.Title) + [" "] + Upper(Customer.LastName) + [" "] + Upper(Customer.FirstName)
+      	result sFullName
+      	
+      end
+      
+      dbgAssert(False,"Customer not found")
+      result ""
+     type : 458752
+   -
+     name : GiveLocalizationInClear
+     procedure_id : 2015370286632369752
+     type_code : 15
+     code : |1+
+      // Summary: Returns the global localization according to the phone (based on the dialing code)
+      // Syntax:
+      //[ <Result> = ] ReturnLocalizationInClear (<sPhone>)
+      //
+      // Parameters:
+      //	sPhone: Phone
+      // Return value:
+      // 	ANSI string: global localization
+      //
+      Procédure GiveLocalizationInClear(sPhone)
+      
+      switch Left(sPhone, 2)
+      	case "01" : result "Paris area"
+      	case "02" : result "North-west region"
+      	case "03" : result "North-east region"
+      	case "04" : result "South-east region"
+      	case "05" : result "South-west region"
+      	other case : result ""
+      end	
+     type : 458752
+   -
+     name : FormatFullName
+     procedure_id : 2015370286632435288
+     type_code : 15
+     code : |1-
+      // Summary: Returns the full customer name 
+      // Syntax:
+      //[ <Result> = ] FormatFullName (<nGender> is int, <sLastName> is string, <sFirstName> is string)
+      //
+      // Parameters:
+      //	nGender (integer): Gender code
+      //	sLastName (ANSI string): Last name
+      //	sFirstName (ANSI string): First name
+      // Return value:
+      // 	ANSI string: Full customer name
+      
+      Procédure FormatFullName(local nTitle is int, local sName is string, local sFirstName is string)
+      
+      result TitleToString(nTitle) + [" "] + Upper(sName) + [" "] + Upper(sFirstName)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x166562af015b7dff
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

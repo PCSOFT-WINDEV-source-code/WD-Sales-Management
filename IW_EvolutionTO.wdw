@@ -1,0 +1,165 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_EvolutionTO
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_EvolutionTO
+ identifier : 0x2bf80883b9562b18
+ internal_properties : CAAAAAgAAABzo2AZNLxACkDjO8z3pFM48F1L6V8mrZk5teeJgPQE4f3rvzUSkxSULfwLy+3SKkmGTKj9qajnIWY46qWTQm7GPhxaVhvt8Y9sNnB+OABzY4dxnGsG9pPwfrBGPZP4nU2PS4ytKd/x+lgznZ/WzPjZQ65ZmBHtEZ61F13kgCf3/OwbhUfTF6+862m1DeKCGhYP3j+2EqBMBK9tD7KaDiOpxeK7VEuBaW/pSALWWcfZDvPT5oixHZDZmmOuIZXKwhXmKDPB2XYekCVt3hqGfUMYMfinjJfRxWtgNE2/Aaw2fyMHwI+Vc/uOmVkvjOXT0XaIdmkSaQtUHQdH2HV0k7tGT3nHPmsQ4sksGjAQM4NKlNNsbc4NxR8n8aEGZPIkNh+m24g1fTrivOp3I3wTfg6WjW2MCmhhHDVaOIcDesmad1BUe/ZtnZSlEWfUOZb+p8Byk8qf6JAVAY+F2foV+7sk8Wt0lT0PhLN0FnehsCnkOrvR9isoumJ2noJLKL2ujfEUYhe+Jp9FPWXjAIOfvisqY1Yo2fZxmXFIjeJbEyHyBinKpvuVn6Fddgn3/nND9t7OLavo6IKW56kD7+H1pUExzx04oTcqtmXp/WKivesMn1M4JYVOYob6kj3eMai5lTQLaNR79kS98lzS986yXiRt2W7ES1lSeDkSZmVnUY7eHKDeg39SKM1jT9Hb/K8RUjnzP65iKPw2yWuFXOv/dIATLJzBA8YugzuwEFfYLZ+IXLtaRqQbF522KJxp8qRlQeudOXQgYSlLMds=
+ properties :
+  width : 900
+  height : 300
+ controls :
+  -
+    name : IW_EvolutionTO
+    identifier : 0x2bf80883b9572b18
+    internal_properties : CAAAAAgAAACH6udLMBzDDAcI02HL1t9A84PU1h4p20D41YVKEwpKlc8nun8rEQ5bBsXkmTsLdbRwDD/Kx5gP13oMC0fYIoZFywYJwyIFekeZ8bQCx7eYrLoyLZSkDw9QO0uHiMNt2u1mW0lt1CT/hi3uFaVOyEBRg1vg82Dqhfe6BHtWSZJU46mTNSjGFrGeYV4HnKtyDa6qXrhpdsTSU+GVapX3nODkFIJr6z/+kD4gqXSnEvGfhOV0eGoJj/eCzmuGEyuN5Fv5rBf/pcUzZAS2Rvtj0u3XhywR8W+4LVUsJ/ojNZz73m+cGTe1I+ZPZ/zF0yeMRK2j9SUi1AuFi2vlqKXDM3ktEU6hcNiuyClINK6Qfb0hQ6DafJ89mcgyITv+9YXu4sOpmlHeydvC3S92XoArWJB/qp1Nv7I+unaj7vBOHy4/IAKrz1zkknh7ivSmBqK78gz+XJ+EJS061rFqBrKvmzKRGZNtEGbE7MMU65Q/yy2oaw==
+    properties :
+     width : 900
+     height : 300
+    controls :
+     -
+       name : STC_Evolution_of_turnover
+       identifier : 0x2bf80883b9592b18
+       internal_properties : CAAAAAgAAAB6y4m6P1xk+anNy9epg9/wrhChaiJmkZcmvdIWTpLCAbgJ/bIxNYtd8HTHJ57osAMJ/aXf+ZI1EyJ+DGUcdOoWt309+v97nilcR6wtziPpIVs+YQJP18BxiRB7eF6q1hCoX7MHXEAwSc25kyDwQJFHMCy3lXDJf8vFID/+yKaiSJamWG3rfw3gSvDcdy9LGgxOFq1jPQW23BaOLQpVxiQ/RrKhO0Cw2TvJDzg8cWj9zESfYXkFTnTFXlNVbcz42JxcIZv61RfcK36JDnE/vQfv3pQOqU6PfiosZ37NpBN8uqX+ZcA8ii9QugsisujQcqj7uaavrZ1I/QAK72+1rTyXpzY8yNPC7U3s5UyrScWT81oKdaFzVnMXKaUsDyPYEdOC8ghEvmVARnb6LK4BsyJX1AvPQMrgVfkoZFxQ9vq0btOSrPoIHJ/xFth7Ypze2yM0vkakYPx6U8Ex1IYwdrHluwnRfofmLhtP0f+YsvLMbB6MnANLIKfTPwPNQSM8v5I1SXzc4bLfTgEoGIxxoCPaj9xS4fE+/P0wEOzTkJRB6cL/5UqKBSbBy00EqwCIRpPpzvCITt+msBvjrztXPZBKVJL8yc0N9b2YcA==
+       properties :
+        x : 19
+        y : 18
+        width : 685
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_BckgrdIW
+       identifier : 0x2bf80883b9582b18
+       internal_properties : CAAAAAgAAADcZIiiYMPYwmocwommDuNqLb36UOA20MtzaNFkyxdIgKOLtUupEkbsMZjrzNmBoDGqOuByBppuRwKqe0uJ9GhsWpus6Tis9fmtXT0bk20ti3G1gJYD6iQpJ1O6Z7c623ooYpYgJQ47sQQ51y8vpA5f9QDNgo/uw6b19MCg6hA72DX5owV3I6XjGr2hBFuIFStAhUeitByM1ePlT3hfW/0bRzjx/NdTu5w8EUJEUbCEUBPmg9Mi19HyRK1MQs04c4Qvc/wdNrvsyK7dRjvpO7PFqxNXj704LAxAu9XG/VJ03N/nVY0Qzvyx1CA757ySWImZd2oTc0j68IpCZif3MU7UODIoSP2K+tcXFH2vUuMcBSQsHH37LzqrZ2ygaL5pmy8txMuP3/orx4OcrqouknbXS51Hwdtx6uohQTerd4qHXauN+0Vxd8TQV9PvWaOwnpJ94ROplW3zyFBT6VhssAI2GsllvVEI0KBwhSP7nafpZaJVM72LizqoZpyO2SWtDW1fo2oG7UFR/5D9xXvivkulKe+NMMI2KxM11OoA4gMhg6fXwAByv1ca9irDeiQ5E9Ez4jCM7gp60ZnS0Xf9N5FFNdaY22iaXVcrBm79ox97+8k0Q9/rJe3Rdc9g2Fu1CkexRQ==
+       properties :
+        x : 3
+        width : 898
+        height : 301
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : CHART_EvolutionTO
+       identifier : 0x2bf80883b95a2b18
+       internal_properties : CAAAAAgAAACmffUDhEpRVs9fTV+qTcA4EvTfoG0+uFFHSHC8wBqxJpfgTQWsQ6e2N0mVwWkjrotYAogqwdV44y2IKdUEBxH7yXkz/X0cWCBYzm2t7jxL63MzDiBiQdCBIMGEbzyFs6C81RFhY9CokT/Do1WOB7pBk1vPVK6JaaNsaOxwV0N5jdvKIWXm7xBgoZ1rXQN6SmZkkxTHkY2Kx06+ULftJ2lz2S0OZ+TC7m5UJb0LBfqYDa2Osub7WX5P/OO51/EQqZheYfSYDHP7aGL195nLsoCVpBns7M/wcezuXOamBM0llyWcadaHRIkn1SrLDImmMYGbesfJYYSN1XdzR50CzKnv5PcY46qFQJqPM9g9CuY6jP3yWAluOCstAE2oiHarQfK/PkCG9r0IVSY7Nh4+4lhGdZhQNmsZh1VBSVfw7Np3Spq03f65z4ZAZO/y3F+lCy2/JcxXgjS8LjqnDkJCRcDtyqDr4mCxivVXIMZAVQvI2QcRCdhDhrhrZgbrzmSx4kOe1OPslYLbGfGywGUZ+Cr0KgzYMZrOuHLz4ZWY5QRRUkzZHDwwBlswLG1b83XDTobIsrMx846X70WBkpZyu9/dgTe19737UySSDmbU0SJ+AkKCJEnKg02O2s/KKprDG7/aF/SiQr9pO9ONvRMuzXLyWdhQVsIfIn+Nb82rVEIqsqCd0KRViLRRHaKKGcntNufX3mHUBa0K78ugn0hhnvJyUekTF/LxH/3X7AXexeaV15dLsvkTTsG0legleHB/GTR/MLw8fvadlIwXtBjY/qekCmY2EdlI+4d7LRnFroJkjKaWrxA5bgX8tUAEZ1/q3TYshajH6X2mzBw/wmXhu4uLrHlnutC6LizmXdnISq66pKF2ThdAXCWpXgmQe5zUKBPAAZdpQW2DyFFfV6HBMukV713LKfQ9ffZCc8t8LwHqSf78lieyilyxnvlElbd/PAtxueGCdpdziIuZn9bbJMCCn205bY5x4eNmxc0CER4ZNN674vUJ+FoME6IXu5W0WWcVxQvooSAwDejNFwcpn3V7TqzEIYwxCC9OyKY0vAp6bOgPTOzxyc6G0RlMAmF4hYfUqoIy1oFx5L38PQATroBl0Gzr0efYmcDYmOr/vWuOJjw6XX1y+LjFJF+UziryVwWB1OLohHJGIUHGxvpwFwBSGua3WWQFMydsUCBrnEWeJiCGU1lOuxUfI9XNaRgeGbvFoHEnt9lJ8ZGC9LJcNNM+uh1qkRcbQJ9wq6Q0vxVVn3M/WVtEJTtGBQNmJf6xemJIIvjawaT4pI/wrXK81eQvA/kvuPRLyWiAjkOi8YGwQDpY0C9KQZJPPt3YF8fagDJrL7jXxsNBGjN+oc8xxL2LpjTtBO95w3QXgJ7nhUqP1yBX/vqkZWuv37NgXCeR9fLXxWcjicKnorbFpKe5204ifm7pDJ3odL+wzbk+U2qvXOjWuPEkY97NkqOLc4TvPEjVx3kngt3BITH7S74Vg/3n5VBPiZ/5YBqPMuhrsIkAkLYOgASOXAP/kodkVTIRt9o3zlUVl2EbCmkD73u70arCbVln68AzIUtIaAT21n+qlA+t65pwCcb4szaAgHm7ThInnUBMIetZVhYXnESUZ4g+UK+MO5yMLFyOg5s=
+       properties :
+        x : 19
+        y : 53
+        width : 856
+        height : 224
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : BTN_Details
+       identifier : 0x2bf80883b95b2b18
+       internal_properties : CAAAAAgAAAA5JpkRjoRhLUmA5/8eiEk/+jUPU37dHvht4IoNLhoqnUqUtozhvNcqpkbr1gXwVTIzg9W+JrLp0qKTmwodA+UtAyvmP4cS46PN4vd3gQUds5ePPdd5z6kKfGDalUUqKqTWFyOGUb4NLkh5rLO08cQ2dUEfDm/uEWOj9/WonTczYv9paEeRuAPuZLxSsPpUKHQcceCsa5a/u3H96PSB7FvhrsWx7sMYd5Rg+uluiKoxxQINvRJhOwBRn9QkfAzMe/5Gn0cM9sXxhfkLRx10uo4DX01zdVVH3YzMZ6XUVMTn2od0i8JPAICJp1Zf/PhVj6Gz6f6vYu5MtudMTgZWTJAQXV+MQke0UPDEA/yf54uvdbsB0XsOr3dcE+gFweDEir7xZGAi+4XdpacWYSMg91JdIZfAdRz9Fr3tZ2VrcUGkyccB39SD+bgtGtyey5FKnbs1XFRZcdVpq+fA1/bcEwhP3NFfKofmuUCobonOAPLzsQJ195dl3ngMG/02eNNJVtxyReyj7KE2zaQyzxOhICUpmD04v3IFXGj52TirX9rb2Bzkk3yPcIop2kw73ufGR2u7qVX4mNTDs2o1fTJT8E5LAp17n73OZpzAtEbfruJ3SLa7EuMGVXOn2swSNBTcaOcb6NXCM0el+yYEmFcas0dbmIcAx12y0vz3Dn06rzAVFsCjCxg3XfElhO4EH/7UJcnYY+1JzjV0jmwwlwKViQ4DmtBw7n0VS+SUgqc8QikUJAXhcyDxDnBPK+ST4+KIYMaLuI2tkGqD1ayYV4WxExXGgkGRYNeIbNjbDMSc3d4YX9M2+LIfvbXGop37pVwaKS9IvdjANCwZVamoEG+Z67nB6RIVEgNTp+1q7gbVMSkvVRKEc1q4aSPj3Nt5sZ9M6nymlYd+mzrhppkFH2AdXJuIOEAOAJMLyv22x9YtbHewRBouMg==
+       properties :
+        x : 710
+        y : 19
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            WIN_Tab.OpenOrEnablePane(IW_Pane_PVT_Sales, "Sales statistics")
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         Procédure MyWindow()
+         
+         
+      -
+        code : |1+
+         FillChart()
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2698d396433318a1
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : FillChart
+     internal_properties : CAAAAAgAAADeb/Foj6TUQZJgtYwLETewgPv290JpfSBNLbQw/OkoveoRcZtb9SXw7Sz9XSQIlj/YiXWSCjrStQBmK0/6vXhzbiRYZTs55OOc132y1g0Gm4j10AvUPwjZy6Pwt9aN7iVw3UsKdVoDGo+S+uEF
+     procedure_id : 2015370192139463448
+     type_code : 14
+     code : |1-
+      // Summary: Fill the chart with the turnover of the last 12 months (and the comparison with year N-1)
+      // Syntax:
+      //FillChart ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      Procédure FillChart()
+      
+      dDate is date 
+      
+      for i = 1 to 12
+      	
+      	QRY_TOMonth.paramMonth = Left(dDate,6)
+      	HExecuteQuery(QRY_TOMonth)
+      	HReadFirst(QRY_TOMonth)	
+      	grAddData(CHART_EvolutionTO, 1, 12-i, QRY_TOMonth.the_sum_TotalIOT)
+      	
+      	//And the previous year
+      	dDate..Year--
+      	QRY_TOMonth.paramMonth = Left(dDate,6)
+      	HExecuteQuery(QRY_TOMonth)
+      	HReadFirst(QRY_TOMonth)	
+      	grAddData(CHART_EvolutionTO, 2, 12-i, QRY_TOMonth.the_sum_TotalIOT)
+      		
+      	grCategoryLabel(CHART_EvolutionTO, 12-i, DateToString(dDate,"Mmm"))
+      	
+      	dDate..Year++
+      	dDate..Month --
+      	
+      end
+      
+      grDraw(CHART_EvolutionTO)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x16991aa402adab2a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,163 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Tools
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1bf8089a09a783a8
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABmWeSODxWDZIbDzEk22XIpRDtEaKnb+h7vbnmki/1HHF0P1jLWZqYrIvUrdRiQcZVQ+sYTSNx0IxfgRSNRUZx9gbr7d8W0XdnunoXKYFSKeDM3
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      
+      
+     type : 720896
+  procedures :
+   -
+     name : DisplayError
+     procedure_id : 2015370290928321448
+     type_code : 15
+     code : |1+
+      // Summary: Displays an error message to the user
+      // Syntax:
+      //DisplayError (<sControl> is string, <sErrorMessage> is string)
+      //
+      // Parameters:
+      //	Control (control): Error message to display
+      //	sErrorMessage (ANSI string): <specify the role of sErrorMessage>
+      // Return value:
+      // 	None
+      
+      Procédure DisplayError(local Control is champ, sErrorMessage is string)
+      
+      // Assign the error message to the control
+      Control = sErrorMessage
+      
+      //Display the control
+      Control..Visible = True
+      AnimationPlayOnControlProperty(Control,"Opacity", 0, 80, 20)
+      
+      //Wait, then hide the control
+      Wait(200,waitMouseAndKeyboard)
+      AnimationPlayOnControlProperty(Control,"Opacity", 80, 0, 20)
+      Control..Visible = False
+     type : 458752
+   -
+     name : ReadableColor
+     procedure_id : 2015370290928386984
+     type_code : 15
+     code : |1+
+      
+      Procédure ReadableColor(local nInitialColor is int) : int
+      
+      InitialColor is a Color
+      ReturnColor is a Color
+      
+      
+      // Stores the initial color
+      InitialColor = nInitialColor
+      
+      // Calls the syntax with the color variables
+      ReturnColor = ReadableColor(InitialColor)
+      
+      
+      // Returns the reverse color found
+      result ReturnColor..Color
+      
+      
+      
+     type : 458752
+   -
+     name : ReadableColor
+     internal_properties : CAAAAAgAAAAnESZtpVsJIutA6w4gK9gpx9FEUMgRw99rFrcM1PEXL3WAprRzPCFhnL9vMNzqvQ4bLqIcIBjsHuwDsgfe4pCqU/suvRuWOnrStKym1FR6AOFTkpXYDRi5vgaPZk07iXr7v5lrSJAGhkhqm8A=
+     procedure_id : 2015370290928386984
+     type_code : 15
+     code : |1+
+      Procédure ReadableColor(local InitialColor is a Color) : Color
+      
+      nLightness is int
+      rBrightness is real
+      ReturnColor is a Color
+      
+      
+      // Calculate the lightness of the color passed in parameter
+      rBrightness = 1 - (0.299 * InitialColor..Red + 0.587 * InitialColor..Green + 0.114 * InitialColor..Blue)/255
+      
+      // According to the luminance, the text color must have a low or high lightness
+      if rBrightness < 0.5 then
+      	// Low luminosity
+      	nLightness = 12
+      else
+      	// High luminosity
+      	nLightness = 88
+      end
+      
+      // The returned color keeps the shade and the saturation
+      ReturnColor = HSL(ColorHue(InitialColor), ColorSaturation(InitialColor), nLightness)
+      
+      
+      // Returns the reverse color found
+      result ReturnColor
+     type : 458753
+   -
+     name : GenerateData
+     internal_properties : CAAAAAgAAACXvlZRW9km18HdrgcAjPq51H+Zrsn+PXyxNxVPjfkVuLqPCS7bOnmkvCBQEZ+mHY5jl41bVu+ML5LnW6h57fveGHTimCdcmshAsQ9iEuaZoF4LrhLMlOX+VPmFPlX7jswGmDHu/R/0F2q9eANekNmzagmLZdfjaz8210GEpxEYGw==
+     procedure_id : 2186001636320708765
+     type_code : 15
+     code : |1+
+      // Summary: Generate "up-to-date" data for the example
+      // Syntax:
+      // GenerateData ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procédure GenerateData()
+      
+      bDontDisplayAnymore is boolean
+      
+      // If the user no longer wants to see the generation request
+      if LoadParameter("DONTDISPLAYANYMORE", 0) = 1 then
+      	// No action
+      	return
+      end
+      
+      // Asks confirmation to the user
+      Input.OptionalCaption = "Do not show again"
+      bGenerate is boolean = ( Input("Would you like to generate up-to-date orders?", bDontDisplayAnymore, ["Generate", "Cancel"], 1, 2) = 1 )
+      // If the user no longer wants to see this message, save parameter
+      if bDontDisplayAnymore then
+      	SaveParameter("DONTDISPLAYANYMORE", 1)
+      end
+      
+      // If the user does not want to generate test data
+      if bGenerate = False then
+      	// No action
+      	return
+      end
+      
+      // Open generation window
+      Open(WIN_Generation)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x169e10f30da450d4
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

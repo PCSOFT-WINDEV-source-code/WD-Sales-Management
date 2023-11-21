@@ -1,0 +1,110 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Map
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Map
+ identifier : 0x2bf80890ba965d15
+ internal_properties : CAAAAAgAAAC9KpCA3I/d9DhqkIxeU8cXbNteFe2R22E8U78vZqmAhdOMyHx/vqlWvaEAQr3ZIT9XVbzkBJpPkzWyHplUHAq63zVF8ouP2I1wrQp1lyutZALSS1VT87OrrlXQF+ksR/jV8qUnI/arLuLADiqTPJS0+rRiRbGW4sAhzXyt67A+YD6/iOlR65/p+N/15iX/3UfL2gVxosyyNpxQdchqTNg4jQN2mpjXWPnBmhssTGKGXng4mSn/D2d1tnRaQf+C2dSm452cVinwbmEH6eVbMGxDGX8XJnPRPs6HWItKNVuUqU2cV2shNIcwntoCt2hIz+7xIqZlPK9xVBk/mC+YVOwH4A3MEjcNWFaM+SSnw0lG2WObbi4hkaof1+Cy7SfNMn3BUl10T55aW8jXrEX2te1VC3/JYw88vFao0qCHkhQM2sducpHgTpqSJeR0zWe+50YH7nyJpilp4DeA1+XYG9ZPxlTAyfVXtaBCp53vCo99TNd++aqbCQ85jpsee1r/9eN0+AbxPjHiuupXdcSverdjK7fVhMtysahPcril+9iBvQSE/JdC9exRg48P7MSrRwgNZaRAvWPQFR5QXU1vphT8LPvwug7o8bgiuDVGbRyDW/UhZ6McCAwHgQjOKeF4YwKnGhVJHmeNu9jrlHamC8wJF+SMn9TrecDchyaogjENPDzuDMvSbxfnojCEoYjBZi32sGEGlPUbJPdowC8SFNHPbRnXUcWQrLS8x64Ik4TB3ZfXDMWf3BPctSRSjQ49jLVVFnttb1IhWWOstA==
+ properties :
+  width : 640
+  height : 480
+ controls :
+  -
+    name : IW_Map
+    identifier : 0x2bf80890ba975d15
+    internal_properties : CAAAAAgAAABSlGygHfeZCQl32UOkeJTipnZ5gkq3OTGE5ZYsWtRO7CA1g0zbmzDrVwXzU9PbvbUnAt82J08jOCWW6f63YnhVu4VdnxXUULHL1bFQNfcJ+8iboXe28yXgDyq+suz8OaiWXlEkv2VoRe+hINzDW960zNoQ9otDDph3D0mzumi89AsE6Ol0Blly26cgun7FFdR/QAFJNBQ3cYUhIP9WNCvb2Y/t6J/SwzYrj+FZxmpX+oXCQU6FCfKBtlCfzCC94FOk3RkKiWqxFzGsXZ85cv9pkfAClc7AZShuWBBPAx3jVVDsIvtA3JSTGETSSnIaisrYkgrGyn5LI6j59/Xs2ROUWLYpV0TY/LXB38dF+6ugeu3/UlAMZ0lJxsRMtLMlpuKUvDQBEJOXeLRT1AJkDGicLkcRvCy5nW4SsKdaPp/8k5osPCjkk6FkwSVcXFr0z2wGT662mdiu8ikiozsLUtqKHkbZ0huDiNUz99ktSQ==
+    properties :
+     width : 640
+     height : 480
+    controls :
+     -
+       name : MAP_Location
+       identifier : 0x2bf80890ba985d15
+       internal_properties : CAAAAAgAAABIJkyONrmxnsWsPsTBudlZ86SePOHdirzn6MDRSOI3rkQ5xuEAKARnDTRnqCg5FRUxK38YWoVvh2QbW+tb+biypfBtjS4sX/cAMKMXo7SANR/2DP+fVowBa3ti+unWK0zsVPjoozG/LRMXzO+b9T+zo5Km5XDPxF6VIm3ZAEqW70kSouEdd1XTWKMFY/mNpFLC/SvMNjEwYqiraldNMQ4CoCFiko6r9NI93Den5SBBsDtLkhMUPHmumhNOKUonJOh4t0KTIve+Yr5VwKoS+kagQAs5PqCTRH3beZ1eal6oGrjTDaAyx6UYTPHIwjJbrPkene7LNWrjEMxCC6cskTxSa2fkl0fACFaA1CgSNM6TPbFGiKTnIMbgppWHBW4guo8dFyx+QolKMiSbVzmokQI4G9JXHsTkQyt/Vu7SvSskeWC7Zz34XWq4u/vblzM=
+       properties :
+        width : 640
+        height : 480
+       type : 92
+       code_elements :
+        type_code : 121
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         
+ menu :
+  name : _Menu
+  identifier : 0x269e3bb010f94473
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : DisplayAddress
+     procedure_id : 2015370247974968597
+     type_code : 14
+     code : |1+
+      // Summary: Displays the address in the map
+      // Syntax:
+      // DisplayAddress ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      
+      Procédure DisplayAddress(sAddress is string)
+      
+      //Position marker in the map
+      Location is a gglCoordinate
+      Location = GglAddressToCoordinates(CST_GOOGLEKEY, sAddress)
+      
+      if ErrorOccurred = True then
+      	//Try to locate the commune only
+      	Location = GglAddressToCoordinates(CST_GOOGLEKEY, ExtractString(sAddress, 3, CR, FromEnd))
+      	if ErrorOccurred = True then
+      		RETURN
+      	END
+      end
+      
+      MarkerLoc is a Marker
+      MarkerLoc..Position..Latitude = Location..Latitude
+      MarkerLoc..Position..Longitude = Location..Longitude
+      
+      
+      MAP_Location..MapMode = mapModeSatellite
+      MAP_Location..Zoom = 16
+      
+      MapDisplayPosition(MAP_Location,MarkerLoc..Position)
+      MapAddMarker(MAP_Location, MarkerLoc)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x169e3bb00dcf4473
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

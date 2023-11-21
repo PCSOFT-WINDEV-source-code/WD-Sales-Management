@@ -1,0 +1,60 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cProductVariation
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x1bf80898098c7ca3
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAABm4PVFe9JAHaoZ7pWrapr167xJBrSdz0axAnnnfYhOQaaZf6aFmw+87+hdnze0968KI3y7g0wMbri74fT3L3UE/39pGg==
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      cProductVariation is class
+      	
+      	m_nProductVariationID is 8-byte int <mapping=ProductVariationID>
+      	m_sReference is string ANSI <mapping=Reference>
+      	m_rUnitPriceBT is 4-byte real <mapping=UnitPriceBT>
+      	m_sVariationCaption is string ANSI <mapping=VariationCaption>
+      	m_sDescription is string <mapping=Description>
+      	m_sPhoto is string <mapping=Photo>
+      	m_bNew is boolean <mapping=IsNew>
+      	m_bPromotion is boolean <mapping=Promotion>
+      	m_nProductFamilyID is 8-byte int <mapping=ProductFamilyID>
+      	
+      end
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 2015370282336615587
+     type_code : 27
+     code : |1+
+      Procédure Constructor()
+      
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 2015370282336681123
+     type_code : 28
+     code : |1+
+      Procédure Destructor()
+      
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Classe1
+resources :
+ string_res :
+  identifier : 0x16a632bc1916bfd2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,164 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Tab
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Tab
+ identifier : 0x2bf80869b231c2f8
+ internal_properties : CAAAAAgAAABrqr/1jj7RRW1GgHuSacd5iVxZXzmjnSXtoIwk+w2MuMVK7+oZb2tKZdasuPA1iX+wC9xU+Z7PjKb6F5n9bTBEbK8hglwFzyY8CN37bmdGRpWBENrnGKmzIr7ZTXBgfPolttBGpZuBbYhoxnFkATABmEHHAFlv2vekXLbdL4fIfHeS/16eI+qreAsCvUntIpoYRmI6LmQRnZzMTIHYuMerSKwYzOo3c9qRgFTIitCbz3PNRVdstp2IjhFc1eCwRtHd3Ps4ZQ88+BkJUlF9ZwitSsO1a/J1xGv7vdf3k1fQPM/YuANl6m21UyMc55lJfsKCZg6arwqiOYbCEu4HDDABy7DYxBUNoS/S5JXQC9OFUqmnG8cT4WaSJrJ26+/tGMoZ2czRhYky53gX+1KseAapn+aTB1vM8cKz6vg5WlxnJ9IF+KvpWAwPpESUu/KGcvYZoLz28CBPWRUkNc1PuTHKLEM1h4BDIgDU3OdySatFfGMpP8DgPApU/E40/CF4K80aCG++NZ41HSfaakIksnUgkGo57N8jMVJNFzOwA/kjbSelGdU479daSN/J/ilTNY2MoYGfs1felFpLmJxChlLsPRUTzqRSyratWzD+ODvI1CqaX3DSc5LKzGYGyk/dU21njKaV/c02mA31tyz9NqZK0aNKVz+juzwGEhFdcs7sAQ++dp5covATAHtg9UB90DD+i7ZtKxhoyM16g6b+ZeNwjWtIiKdkOVsdS+a38eBBWT1gU/vqTuV3Xn7qXtdX0nByXHpMXKOg+ff5IUegSAKAjVVVu5b+SasF4i0MfxMRMvw1gFft/eVdZP7RrRB60sNHpUsJtEyOHQJMh2t5bR/rZvI=
+ properties :
+  width : 1400
+  height : 920
+  widthClient : 1398
+  heightClient : 888
+ controls :
+  -
+    name : TAB_Menu
+    identifier : 0x2bf80869b233c2f8
+    internal_properties : CAAAAAgAAACtyNiHKpsxW4MxaEBzYmMwIjUr6eEjMXTtVv1B9QZ23NvxdFz19Fvx4H2sdp9IHPJ6J3onKfSqJrOhY6/YEN6ySrHMr4L3W43scQMzlGwwtrJlGB5VsdfTchHWHWZAZ80qqB/5KXzMzmIkXmoWd2DkVe3OfG6bCuRQYTR04mLiDR5q/eahFBN415VPQRhM6NlKJ5d1QwFQHIfniInLk0BIh+00oEh4nDKA10j1bTjwU2ZMRTUwD7lA1RYbotMGPfmWtuXN2s34nvW5la/8qjewIrUVbZEADKVzODbwIuNzqKVC7fvr+zE9IC8+hapncEk3mYyNNC/p34r5y0K/Fcdh1OonELVj4Tek0Mnazi4F5B7pEy0zmiFHJZWktYojjNX0LXaRUp2nt4+3dl13rII1dDAncGZVacawMU6WrGRjptfKDOxIxGMemHYkKcm/rjT6bXx3A7EtNcmAZvb/dwRc0b0VUisVHh546eDzy+xfVNgTQIycnYg7MP7KAQsQ4BW309ejaLIw+mgYCVwZ1SfVARskR97kIt9HMV4RGhD1KNi9Cx74GppJLvl9IIguk5lin191s8s+5s4KWFbONxufzz13pogQWbM3l4BzKZkQYxFOeRIMtr+LN/5IXOob+3H6YE6zW6E95Pdvv7+tKC8+F6o//1BPh8r8dx9+GZvQXNN2tGuBmKV3pvP3zEQAzijXd1oU27rBOdnrz3slXWHt72XkBTZ2+v0+EWbZdlTR7i6OYmwxHs2ZJQQGDJ24lDgIKGDpXiiUoEhpK3uPnIwiUEWf+KQMf0xoRdCc5/rEwh+Zq5wgac1a1p6SJLq9NNWYFGnB1bYqcDxbh5jTmAcbKeOV2HMOseBa3f6VEgWN5qhr66hhOhKuGufdTKwA7Zy/62RutZ2En2DBseGhtGNDN5Jjkaz8ZNMRkTyvbf8bdBqn504iSF1EYsk/DbDjXCG8/qZU3qiG2KsHbcw6thEDRkBIwoQefWEGLAiFiJk8xHXiR+AuqPcDOtI+F45EsavY5cCFOD3vxp4yteHlerf0rnUlZ59kleuisIVPq1ovR/AiCUtFP7lZ5N/K4fdow172nAqC5oroJGnF
+    properties :
+     y : 16
+     width : 1400
+     height : 874
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes : []
+  -
+    name : STC_MyApplication
+    identifier : 0x2bf80869b232c2f8
+    internal_properties : CAAAAAgAAABn2OMW1Z5UwXEOUQ9rzuSSXxwdzjNKeo9NZ6JSO+g0oF9zpV29GbF/7iMPqaZ9aW6GuSZXOnUeOfngDfBvQ5fqDKhjKX84O6q7ekuOdPtVglmI9VEKPuM7pUYZtAOGzGRS0VcEQscd1vWLqsQp5xGk2CuI02uNbELOXC/HSZYjs9xO4QMXutMMyyhKceMhbPeefOtviLSXjAOHgGl/hz4Fhxq1EtFNCtT9bS1QoUdqAfnZRvHXHUVRC/vdMDu7pYFBh2kpXNYZVERanRlzHk86R/IoyOC8wMDVO33C5EGK6cNKI0YZaqVuNdYwPFG73sApPS/GfvQdqVLzsXiPMgBHyM1PTXMhajNDBOm4Xpdfc0hetX7bOQIab9y0xw8gb9OkCdkImPjD5y79DPBW6RrKo3M4RK133gnAX4IFVsKBV1b5osvKlRi8zRvQJ8p6uS+GwrBc1vEhv4j4TDukCIUYZocf7aQM+7P5B7kFdYGz0lldTPCJNfiOdNsZzj3PpCLDjgu7cqoFES0JwkR6Fz13xuaCzcF+6SqljQ==
+    properties :
+     x : 1200
+     y : -1
+     width : 191
+     height : 18
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         MySelf=ProjectInfo(piProjectName)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      Procédure MyWindow()
+      
+      MyWindow..Title = ProjectInfo(piProjectName)
+   -
+     code : |1+
+      // open windows in the dynamic tab
+      OpenOrEnablePane(IW_Pane_DASH, "Dashboard")
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : OpenOrEnablePane
+     procedure_id : 2015370080465765112
+     type_code : 14
+     code : |1-
+      // Summary: Open a window in a pane of the dynamic tab
+      // Syntax:
+      //OpenOrEnablePane (<sWindowName> is string, <sCaption> [, ...])
+      //
+      // Parameters:
+      //	sWindowName (ANSI string): Name of the window to open
+      //	sCaption: Pane caption
+      // 	<*>: Parameters of the window
+      // Return value:
+      // 	None
+      //
+      
+      Procédure OpenOrEnablePane(sWindowName is string<window name>, sCaption,  *)
+      
+      sAlias is string=sWindowName+sCaption
+      
+      // CTRL key down
+      bEnabled is boolean=not KeyPressed(kpControl)
+      
+      // current pane
+      sCurrentAlias is string=TAB_Menu
+      
+      // disables the display
+      MyWindow..DisplayEnabled=False
+      
+      // if the pane does not exist yet
+      if TabStatus(TAB_Menu,sAlias)=paneNotFound then
+      	// open a new pane
+      	NewTab is Control <- TabOpen(TAB_Menu,sCaption,sWindowName,MyParameters[3 to])
+      	NewTab..Alias=sAlias
+      	
+      	// otherwise, enable the tab
+      else if bEnabled
+      	TAB_Menu=sAlias	
+      end
+      
+      // if the pane must not be enabled (CTRL key down)
+      if not bEnabled then
+      	TAB_Menu=sCurrentAlias
+      end
+      
+      // enables the display
+      MyWindow..DisplayEnabled=True
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x166566180099d23a
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Onglet.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
